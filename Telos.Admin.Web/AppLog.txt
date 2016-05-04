@@ -60142,3 +60142,182 @@ FROM [Telos].[Matricula] AS [Extent1]
 
 
 ----------------------------------------
+----------------------------------------
+UnidadeService.RetrieveAll
+
+----------------------------------------
+----------------------------------------
+UnidadeRepository.RetrieveAll
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0040038
+SELECT 
+[GroupBy1].[A1] AS [C1]
+FROM ( SELECT 
+	COUNT(1) AS [A1]
+	FROM [dbo].[__MigrationHistory] AS [Extent1]
+)  AS [GroupBy1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0040044
+SELECT TOP (1) 
+[Project1].[C1] AS [C1], 
+[Project1].[MigrationId] AS [MigrationId], 
+[Project1].[Model] AS [Model]
+FROM ( SELECT 
+	[Extent1].[MigrationId] AS [MigrationId], 
+	[Extent1].[Model] AS [Model], 
+	1 AS [C1]
+	FROM [dbo].[__MigrationHistory] AS [Extent1]
+)  AS [Project1]
+ORDER BY [Project1].[MigrationId] DESC
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0020055
+SELECT 
+[Extent1].[UnidadeCode] AS [UnidadeCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Unidade] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+UnidadeService.Create
+
+----------------------------------------
+----------------------------------------
+UnidadeRepository.Create
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0050036
+declare @0 NVarChar = cast(N'001' as NVarChar);
+declare @1 NVarChar = cast(N'Teste' as NVarChar);
+declare @2 NVarChar = cast(N'Rua Vicente Celestino' as NVarChar);
+declare @3 NVarChar = cast(N'13044-640' as NVarChar);
+declare @4 DateTime2 = cast(N'04/05/2016 20:35:19' as DateTime2);
+
+insert [Telos].[Unidade]([UnidadeCode], [Nome], [Endereco], [Cep], [ModifiedDate])
+values (@0, @1, @2, @3, @4)
+
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0050036
+declare @0 NVarChar = cast(N'001' as NVarChar);
+declare @1 NVarChar = cast(N'Teste' as NVarChar);
+declare @2 NVarChar = cast(N'Rua Vicente Celestino' as NVarChar);
+declare @3 NVarChar = cast(N'13044-640' as NVarChar);
+declare @4 DateTime2 = cast(N'04/05/2016 20:35:19' as DateTime2);
+
+insert [Telos].[Unidade]([UnidadeCode], [Nome], [Endereco], [Cep], [ModifiedDate])
+values (@0, @1, @2, @3, @4)
+
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0050036
+declare @0 NVarChar = cast(N'001' as NVarChar);
+declare @1 NVarChar = cast(N'Teste' as NVarChar);
+declare @2 NVarChar = cast(N'Rua Vicente Celestino' as NVarChar);
+declare @3 NVarChar = cast(N'13044-640' as NVarChar);
+declare @4 DateTime2 = cast(N'04/05/2016 20:35:19' as DateTime2);
+
+insert [Telos].[Unidade]([UnidadeCode], [Nome], [Endereco], [Cep], [ModifiedDate])
+values (@0, @1, @2, @3, @4)
+
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0050036
+declare @0 NVarChar = cast(N'001' as NVarChar);
+declare @1 NVarChar = cast(N'Teste' as NVarChar);
+declare @2 NVarChar = cast(N'Rua Vicente Celestino' as NVarChar);
+declare @3 NVarChar = cast(N'13044-640' as NVarChar);
+declare @4 DateTime2 = cast(N'04/05/2016 20:35:19' as DateTime2);
+
+insert [Telos].[Unidade]([UnidadeCode], [Nome], [Endereco], [Cep], [ModifiedDate])
+values (@0, @1, @2, @3, @4)
+
+
+
+----------------------------------------
+----------------------------------------
+UnidadeService.RetrieveAll
+
+----------------------------------------
+----------------------------------------
+UnidadeRepository.RetrieveAll
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0010014
+SELECT 
+[Extent1].[UnidadeCode] AS [UnidadeCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Unidade] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0010014
+SELECT 
+[Extent1].[UnidadeCode] AS [UnidadeCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Unidade] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0010014
+SELECT 
+[Extent1].[UnidadeCode] AS [UnidadeCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Unidade] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0010014
+SELECT 
+[Extent1].[UnidadeCode] AS [UnidadeCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Unidade] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0010014
+SELECT 
+[Extent1].[UnidadeCode] AS [UnidadeCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Unidade] AS [Extent1]
+
+
+----------------------------------------
