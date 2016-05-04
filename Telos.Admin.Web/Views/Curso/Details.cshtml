@@ -1,0 +1,68 @@
+﻿@model  Telos.Admin.Web.Models.CursoModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Detalhes</h2>
+
+<fieldset>
+    <legend>Curso</legend>
+
+    <br />
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.CursoCode)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CursoCode)
+    </div>
+
+    <br />
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Nome)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Nome)
+    </div>
+
+    <br />
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Descricao)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Descricao)
+    </div>
+
+    <br />
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.PrecoPadrao)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PrecoPadrao)
+    </div>
+
+    <br />
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.MesesDuracao)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MesesDuracao)
+    </div>
+
+   
+    <br />
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.ModifiedDate)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ModifiedDate)
+    </div>
+
+    <br />
+   
+
+</fieldset>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id=Model.CursoCode }) |
+    @Html.ActionLink("Voltar a Lista", "Index")
+</p>

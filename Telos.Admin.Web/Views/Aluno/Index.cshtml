@@ -1,0 +1,22 @@
+﻿@model IEnumerable< Telos.Admin.Web.Models.AlunoModel>
+
+@{
+    ViewBag.Title = "Index";
+    var grid = new WebGrid(Model);
+}
+
+<h2>Aluno</h2>
+
+<p>
+    @Html.ActionLink("Criar Novo", "Create", null, new { Class = "btn" })
+</p>
+
+@grid.GetHtml(tableStyle: "table table-striped table-bordered table-condensed", 
+              columns: grid.Columns( 
+                grid.Column("CpfCode", "Código - CPF", format: item => @Html.ActionLink(item.CpfCode as string, "Details", new { Id = item.CpfCode })),
+                grid.Column("Nome"),
+                grid.Column("Email"),
+                grid.Column("Celular"),
+                grid.Column("ModifiedDate","Data de Modificação", format: item => item.ModifiedDate.ToShortDateString()),
+                grid.Column(null, "", format: item => @Html.ActionLink("Apagar", "Delete", new { Id = item.CpfCode }, new { Class = "btn btn-danger" })))                    
+              )

@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Telos.Admin.Web.Models.MatriculaModel>
+
+    @{
+        ViewBag.Title = "Index";
+        var grid = new WebGrid(Model);
+    }
+
+    <h2>Matricula</h2>
+
+    <p>
+        @Html.ActionLink("Criar Nova", "Create", null, new { Class = "btn" })
+    </p>
+
+    @grid.GetHtml(tableStyle: "table table-striped table-bordered table-condensed",
+              columns: grid.Columns(
+                grid.Column("MatriculaCode", "Código - Matricula", format: item => @Html.ActionLink(item.MatriculaCode as string, "Details", new { Id = item.MatriculaCode })),
+
+                grid.Column("Unidade", "Data de Modificação", format: item => item.Unidade.UnidadeCode),
+                grid.Column("Aluno", "Data de Modificação", format: item => item.Aluno.CpfCode),
+                grid.Column("Professor", "Data de Modificação", format: item => item.Professor.CpfCode),
+                grid.Column("Curso", "Data de Modificação", format: item => item.Curso.CursoCode,
+               
+
+                grid.Column("ModifiedDate", "Data de Modificação", format: item => item.ModifiedDate.ToShortDateString()),
+                grid.Column(null, "", format: item => @Html.ActionLink("Apagar", "Delete", new { Id = item.CursoCode }, new { Class = "btn btn-danger" })))
+              )

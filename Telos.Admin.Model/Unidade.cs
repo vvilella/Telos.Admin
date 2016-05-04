@@ -1,0 +1,30 @@
+﻿using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Telos.Admin.Model
+{
+    [Table("Unidade", Schema = "Telos")]
+    public partial class Unidade
+    {
+        [Key]
+        [Required]
+        [MaxLength(3)]
+        [MinLength(3)]
+        public string UnidadeCode { get; set; }
+
+        [Required]
+        [MaxLength(50)]
+        public string Nome { get; set; }
+
+        [Required]
+        [MaxLength(200)]
+        public string Endereco { get; set; }
+
+        [Required]
+        [MaxLength(9)]
+        public string Cep { get; set; }
+
+        public DateTime ModifiedDate { get; set; }
+    }
+}

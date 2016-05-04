@@ -1,0 +1,8 @@
+﻿@model  Telos.Admin.Web.Filters.ErrorModel
+<h2>
+    Unexpected error at @Model.ControllerName.@Model.ActionName: @Model.ErrorMessage
+</h2>
+<pre>
+    @Model.Exception.ToString()
+</pre>
+

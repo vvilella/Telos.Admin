@@ -1,0 +1,59 @@
+﻿@model  Telos.Admin.Web.Models.UnidadeModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Detalhes</h2>
+
+<fieldset>
+    <legend>Unidade</legend>
+
+    <br />
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.UnidadeCode)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.UnidadeCode)
+    </div>
+
+    <br />
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Nome)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Nome)
+    </div>
+
+    <br />
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Endereco)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Endereco)
+    </div>
+
+    <br />
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Cep)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Cep)
+    </div>
+
+    <br />
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.ModifiedDate)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ModifiedDate)
+    </div>
+
+    <br />
+   
+
+</fieldset>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id=Model.UnidadeCode }) |
+    @Html.ActionLink("Voltar a Lista", "Index")
+</p>

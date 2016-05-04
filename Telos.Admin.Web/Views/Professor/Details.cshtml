@@ -1,0 +1,75 @@
+﻿@model  Telos.Admin.Web.Models.ProfessorModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Detalhes</h2>
+
+<fieldset>
+    <legend>Professor</legend>
+
+    <br />
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.CpfCode)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CpfCode)
+    </div>
+
+    <br />
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Nome)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Nome)
+    </div>
+
+    <br />
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Email)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Email)
+    </div>
+
+    <br />
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Telefone)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Telefone)
+    </div>
+
+    <br />
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Celular)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Celular)
+    </div>
+
+    <br />
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.DataNascimento)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DataNascimento)
+    </div>
+
+    <br />
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.ModifiedDate)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ModifiedDate)
+    </div>
+
+    <br />
+   
+
+</fieldset>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id=Model.CpfCode }) |
+    @Html.ActionLink("Voltar a Lista", "Index")
+</p>

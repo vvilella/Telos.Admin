@@ -1,0 +1,61 @@
+﻿@model  Telos.Admin.Web.Models.CursoModel
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Apagar</h2>
+
+<h3>Tem certeza que desejar apagar?</h3>
+<fieldset>
+    <legend>Curso</legend>
+
+    <div class="display-label label label-inverse">
+        @Html.DisplayNameFor(model => model.CursoCode)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CursoCode)
+    </div> 
+
+    <br />
+    <div class="display-label label label-inverse">
+        @Html.DisplayNameFor(model => model.Nome)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Nome)
+    </div>   
+    
+    <br />
+    <div class="display-label label label-inverse">
+        @Html.DisplayNameFor(model => model.Descricao)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Descricao)
+    </div>    
+
+    <br />
+    <div class="display-label label label-inverse">
+        @Html.DisplayNameFor(model => model.PrecoPadrao)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PrecoPadrao)
+    </div> 
+
+    <br />
+    <div class="display-label label label-inverse">
+        @Html.DisplayNameFor(model => model.MesesDuracao)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MesesDuracao)
+    </div> 
+
+
+    <br />
+
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Deletar" /> |
+        @Html.ActionLink("Voltar para a Lista", "Index")
+    </p>
+}

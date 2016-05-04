@@ -1,0 +1,92 @@
+﻿@model  Telos.Admin.Web.Models.AlunoModel
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Apagar</h2>
+
+<h3>Tem certeza que desejar apagar?</h3>
+<fieldset>
+    <legend>Aluno</legend>
+
+    <div class="display-label label label-inverse">
+        @Html.DisplayNameFor(model => model.CpfCode)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CpfCode)
+    </div> 
+
+    <br />
+    <div class="display-label label label-inverse">
+        @Html.DisplayNameFor(model => model.Nome)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Nome)
+    </div>  
+    
+    <br />
+    <div class="display-label label label-inverse">
+        @Html.DisplayNameFor(model => model.Email)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Email)
+    </div>    
+
+    <br />
+    <div class="display-label label label-inverse">
+        @Html.DisplayNameFor(model => model.Rg)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Rg)
+    </div> 
+
+    <br />
+    <div class="display-label label label-inverse">
+        @Html.DisplayNameFor(model => model.Endereco)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Endereco)
+    </div> 
+
+    <br />
+    <div class="display-label label label-inverse">
+        @Html.DisplayNameFor(model => model.Cep)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Cep)
+    </div> 
+
+    <br />
+    <div class="display-label label label-inverse">
+        @Html.DisplayNameFor(model => model.Telefone)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Telefone)
+    </div> 
+
+    <br />
+    <div class="display-label label label-inverse">
+        @Html.DisplayNameFor(model => model.Celular)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Celular)
+    </div> 
+    <br />
+    <div class="display-label label label-inverse">
+        @Html.DisplayNameFor(model => model.DataNascimento)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DataNascimento)
+    </div> 
+
+    <br />
+
+
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Deletar" /> |
+        @Html.ActionLink("Voltar para a Lista", "Index")
+    </p>
+}
