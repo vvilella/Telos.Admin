@@ -10,6 +10,7 @@ namespace Telos.Admin.Model
     {
         [Key]
         [Required]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public long CpfCode { get; set; }
 
         [Required]
