@@ -13,7 +13,7 @@
 
 @grid.GetHtml(tableStyle: "table table-striped table-bordered table-condensed", 
               columns: grid.Columns( 
-                grid.Column("CpfCode", "Código - CPF", format: item => @Html.ActionLink(item.CpfCode as string, "Details", new { Id = item.CpfCode })),
+                grid.Column("CpfCode", "Código - CPF", format: item => @Html.ActionLink((string)item.CpfCode, "Details", new { Id = item.CpfCode })),
                 grid.Column("Nome"),
                 grid.Column("Email"),
                 grid.Column("Celular"),

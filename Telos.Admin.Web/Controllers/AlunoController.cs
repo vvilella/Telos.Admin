@@ -22,7 +22,7 @@ namespace Telos.Admin.Web.Controllers
             return View(alunos);
         }
 
-        public ActionResult Edit(string id)
+        public ActionResult Edit(long id)
         {
             var aluno = service.FindByCode(id).To<AlunoModel>();
             if (aluno == null)
@@ -32,7 +32,7 @@ namespace Telos.Admin.Web.Controllers
             return View(aluno);
         }
 
-        public ActionResult Details(string id)
+        public ActionResult Details(long id)
         {
             var aluno = service.FindByCode(id).To<AlunoModel>();
             if (aluno == null)
@@ -71,7 +71,7 @@ namespace Telos.Admin.Web.Controllers
             return View(aluno);
         }
 
-        public ActionResult Delete(string id)
+        public ActionResult Delete(long id)
         {
             AlunoModel aluno = service.FindByCode(id).To<AlunoModel>();
             if (aluno == null)
@@ -82,7 +82,7 @@ namespace Telos.Admin.Web.Controllers
         }
 
         [HttpPost, ActionName("Delete")]
-        public ActionResult DeleteConfirmed(string id)
+        public ActionResult DeleteConfirmed(long id)
         {
             service.Delete(id);
             return RedirectToAction("Index");

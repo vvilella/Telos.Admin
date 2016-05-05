@@ -11,7 +11,7 @@ namespace Telos.Admin.Data.Repositories
         }
 
 
-        public virtual Aluno FindByCode(string code)
+        public virtual Aluno FindByCode(long code)
         {
             return this.dbSet.Find(code);
         }

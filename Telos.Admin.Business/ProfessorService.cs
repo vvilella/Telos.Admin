@@ -16,7 +16,7 @@ namespace Telos.Admin.Business
             this.entityRepository = repository;
         }
 
-        public virtual Professor FindByCode(string code)
+        public virtual Professor FindByCode(long code)
         {
             return repository.FindByCode(code);
         }
@@ -38,7 +38,7 @@ namespace Telos.Admin.Business
             entity.ModifiedDate = DateTime.Now;
         }
 
-        public virtual void Delete(string code)
+        public virtual void Delete(long code)
         {
             Professor entity = repository.FindByCode(code);
             entityRepository.Delete(entity);

@@ -11,7 +11,7 @@ namespace Telos.Admin.Data.Repositories
         }
 
 
-        public virtual Professor FindByCode(string code)
+        public virtual Professor FindByCode(long code)
         {
             return this.dbSet.Find(code);
         }

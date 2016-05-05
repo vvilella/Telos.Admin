@@ -16,7 +16,7 @@ namespace Telos.Admin.Business
             this.entityRepository = repository;
         }
 
-        public virtual Aluno FindByCode(string code)
+        public virtual Aluno FindByCode(long code)
         {
             return repository.FindByCode(code);
         }
@@ -38,7 +38,7 @@ namespace Telos.Admin.Business
             entity.ModifiedDate = DateTime.Now;
         }
 
-        public virtual void Delete(string code)
+        public virtual void Delete(long code)
         {
             Aluno entity = repository.FindByCode(code);
             entityRepository.Delete(entity);
