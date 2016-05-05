@@ -28,8 +28,7 @@ namespace Telos.Admin.Web.Models
         public long Celular { get; set; }
 
         [Display(Name = "ProfessorModel_DataNascimento", ResourceType = typeof(AppResources))]
-        [UIHint("DateTime")]
-        public DateTime? DataNascimento { get; set; }
+        public DateTime DataNascimento { get; set; }
 
         [Display(Name = "ProfessorModel_ModifiedDate", ResourceType = typeof(AppResources))]
         public DateTime ModifiedDate { get; set; }

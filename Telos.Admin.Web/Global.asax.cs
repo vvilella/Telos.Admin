@@ -36,6 +36,7 @@ namespace  Telos.Admin.Web
         {
             CultureInfo newCulture = (CultureInfo)Thread.CurrentThread.CurrentCulture.Clone();
             newCulture.DateTimeFormat.ShortDatePattern = "dd/MM/yyyy";
+
             newCulture.DateTimeFormat.DateSeparator = "/";
             Thread.CurrentThread.CurrentCulture = newCulture;
         }
