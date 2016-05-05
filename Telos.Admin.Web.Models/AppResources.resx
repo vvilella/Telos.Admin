@@ -129,6 +129,9 @@
   <data name="AlunoModel_CpfCode" xml:space="preserve">
     <value>CPF</value>
   </data>
+  <data name="AlunoModel_CpfResponsavel" xml:space="preserve">
+    <value>CPF do Responsável</value>
+  </data>
   <data name="AlunoModel_DataNascimento" xml:space="preserve">
     <value>Data de Nascimento</value>
   </data>
@@ -143,6 +146,9 @@
   </data>
   <data name="AlunoModel_Nome" xml:space="preserve">
     <value>Nome</value>
+  </data>
+  <data name="AlunoModel_NomeReponsavel" xml:space="preserve">
+    <value>Nome do Responsável</value>
   </data>
   <data name="AlunoModel_Rg" xml:space="preserve">
     <value>R.G.</value>
@@ -206,6 +212,9 @@
   </data>
   <data name="Professor_Create_Title" xml:space="preserve">
     <value>Professor</value>
+  </data>
+  <data name="s" xml:space="preserve">
+    <value />
   </data>
   <data name="Unidade" xml:space="preserve">
     <value>Cadastro de Unidades da Escola</value>

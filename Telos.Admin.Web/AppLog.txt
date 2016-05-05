@@ -60321,3 +60321,368 @@ FROM [Telos].[Unidade] AS [Extent1]
 
 
 ----------------------------------------
+----------------------------------------
+MatriculaService.RetrieveAll
+
+----------------------------------------
+----------------------------------------
+MatriculaRepository.RetrieveAll
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0030030
+SELECT 
+[Extent1].[DiaVencimento] AS [DiaVencimento], 
+[Extent1].[MatriculaCode] AS [MatriculaCode], 
+[Extent1].[ValorMensalidade] AS [ValorMensalidade], 
+[Extent1].[DataInicio] AS [DataInicio], 
+[Extent1].[DataTermino] AS [DataTermino], 
+[Extent1].[Status] AS [Status], 
+[Extent1].[DiaCurso] AS [DiaCurso], 
+[Extent1].[ModifiedDate] AS [ModifiedDate], 
+[Extent1].[Unidade_UnidadeCode] AS [Unidade_UnidadeCode], 
+[Extent1].[Aluno_CpfCode] AS [Aluno_CpfCode], 
+[Extent1].[Professor_CpfCode] AS [Professor_CpfCode], 
+[Extent1].[Curso_CursoCode] AS [Curso_CursoCode]
+FROM [Telos].[Matricula] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0030030
+SELECT 
+[Extent1].[DiaVencimento] AS [DiaVencimento], 
+[Extent1].[MatriculaCode] AS [MatriculaCode], 
+[Extent1].[ValorMensalidade] AS [ValorMensalidade], 
+[Extent1].[DataInicio] AS [DataInicio], 
+[Extent1].[DataTermino] AS [DataTermino], 
+[Extent1].[Status] AS [Status], 
+[Extent1].[DiaCurso] AS [DiaCurso], 
+[Extent1].[ModifiedDate] AS [ModifiedDate], 
+[Extent1].[Unidade_UnidadeCode] AS [Unidade_UnidadeCode], 
+[Extent1].[Aluno_CpfCode] AS [Aluno_CpfCode], 
+[Extent1].[Professor_CpfCode] AS [Professor_CpfCode], 
+[Extent1].[Curso_CursoCode] AS [Curso_CursoCode]
+FROM [Telos].[Matricula] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0030030
+SELECT 
+[Extent1].[DiaVencimento] AS [DiaVencimento], 
+[Extent1].[MatriculaCode] AS [MatriculaCode], 
+[Extent1].[ValorMensalidade] AS [ValorMensalidade], 
+[Extent1].[DataInicio] AS [DataInicio], 
+[Extent1].[DataTermino] AS [DataTermino], 
+[Extent1].[Status] AS [Status], 
+[Extent1].[DiaCurso] AS [DiaCurso], 
+[Extent1].[ModifiedDate] AS [ModifiedDate], 
+[Extent1].[Unidade_UnidadeCode] AS [Unidade_UnidadeCode], 
+[Extent1].[Aluno_CpfCode] AS [Aluno_CpfCode], 
+[Extent1].[Professor_CpfCode] AS [Professor_CpfCode], 
+[Extent1].[Curso_CursoCode] AS [Curso_CursoCode]
+FROM [Telos].[Matricula] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0030030
+SELECT 
+[Extent1].[DiaVencimento] AS [DiaVencimento], 
+[Extent1].[MatriculaCode] AS [MatriculaCode], 
+[Extent1].[ValorMensalidade] AS [ValorMensalidade], 
+[Extent1].[DataInicio] AS [DataInicio], 
+[Extent1].[DataTermino] AS [DataTermino], 
+[Extent1].[Status] AS [Status], 
+[Extent1].[DiaCurso] AS [DiaCurso], 
+[Extent1].[ModifiedDate] AS [ModifiedDate], 
+[Extent1].[Unidade_UnidadeCode] AS [Unidade_UnidadeCode], 
+[Extent1].[Aluno_CpfCode] AS [Aluno_CpfCode], 
+[Extent1].[Professor_CpfCode] AS [Professor_CpfCode], 
+[Extent1].[Curso_CursoCode] AS [Curso_CursoCode]
+FROM [Telos].[Matricula] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0030030
+SELECT 
+[Extent1].[DiaVencimento] AS [DiaVencimento], 
+[Extent1].[MatriculaCode] AS [MatriculaCode], 
+[Extent1].[ValorMensalidade] AS [ValorMensalidade], 
+[Extent1].[DataInicio] AS [DataInicio], 
+[Extent1].[DataTermino] AS [DataTermino], 
+[Extent1].[Status] AS [Status], 
+[Extent1].[DiaCurso] AS [DiaCurso], 
+[Extent1].[ModifiedDate] AS [ModifiedDate], 
+[Extent1].[Unidade_UnidadeCode] AS [Unidade_UnidadeCode], 
+[Extent1].[Aluno_CpfCode] AS [Aluno_CpfCode], 
+[Extent1].[Professor_CpfCode] AS [Professor_CpfCode], 
+[Extent1].[Curso_CursoCode] AS [Curso_CursoCode]
+FROM [Telos].[Matricula] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0030030
+SELECT 
+[Extent1].[DiaVencimento] AS [DiaVencimento], 
+[Extent1].[MatriculaCode] AS [MatriculaCode], 
+[Extent1].[ValorMensalidade] AS [ValorMensalidade], 
+[Extent1].[DataInicio] AS [DataInicio], 
+[Extent1].[DataTermino] AS [DataTermino], 
+[Extent1].[Status] AS [Status], 
+[Extent1].[DiaCurso] AS [DiaCurso], 
+[Extent1].[ModifiedDate] AS [ModifiedDate], 
+[Extent1].[Unidade_UnidadeCode] AS [Unidade_UnidadeCode], 
+[Extent1].[Aluno_CpfCode] AS [Aluno_CpfCode], 
+[Extent1].[Professor_CpfCode] AS [Professor_CpfCode], 
+[Extent1].[Curso_CursoCode] AS [Curso_CursoCode]
+FROM [Telos].[Matricula] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+AlunoService.RetrieveAll
+
+----------------------------------------
+----------------------------------------
+AlunoRepository.RetrieveAll
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0010009
+SELECT 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0010009
+SELECT 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0010009
+SELECT 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0010009
+SELECT 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0010009
+SELECT 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0010009
+SELECT 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0010009
+SELECT 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+AlunoService.RetrieveAll
+
+----------------------------------------
+----------------------------------------
+AlunoRepository.RetrieveAll
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0040443
+SELECT 
+[GroupBy1].[A1] AS [C1]
+FROM ( SELECT 
+	COUNT(1) AS [A1]
+	FROM [dbo].[__MigrationHistory] AS [Extent1]
+)  AS [GroupBy1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0010013
+SELECT TOP (1) 
+[Project1].[C1] AS [C1], 
+[Project1].[MigrationId] AS [MigrationId], 
+[Project1].[Model] AS [Model]
+FROM ( SELECT 
+	[Extent1].[MigrationId] AS [MigrationId], 
+	[Extent1].[Model] AS [Model], 
+	1 AS [C1]
+	FROM [dbo].[__MigrationHistory] AS [Extent1]
+)  AS [Project1]
+ORDER BY [Project1].[MigrationId] DESC
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0009814
+SELECT 
+[GroupBy1].[A1] AS [C1]
+FROM ( SELECT 
+	COUNT(1) AS [A1]
+	FROM [dbo].[__MigrationHistory] AS [Extent1]
+)  AS [GroupBy1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00
+SELECT TOP (1) 
+[Project1].[C1] AS [C1], 
+[Project1].[MigrationId] AS [MigrationId], 
+[Project1].[Model] AS [Model]
+FROM ( SELECT 
+	[Extent1].[MigrationId] AS [MigrationId], 
+	[Extent1].[Model] AS [Model], 
+	1 AS [C1]
+	FROM [dbo].[__MigrationHistory] AS [Extent1]
+)  AS [Project1]
+ORDER BY [Project1].[MigrationId] DESC
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0003390
+SELECT 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+AlunoService.FindByCode
+
+----------------------------------------
+----------------------------------------
+AlunoRepository.FindByCode
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0036751
+SELECT 
+[GroupBy1].[A1] AS [C1]
+FROM ( SELECT 
+	COUNT(1) AS [A1]
+	FROM [dbo].[__MigrationHistory] AS [Extent1]
+)  AS [GroupBy1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0010014
+SELECT TOP (1) 
+[Project1].[C1] AS [C1], 
+[Project1].[MigrationId] AS [MigrationId], 
+[Project1].[Model] AS [Model]
+FROM ( SELECT 
+	[Extent1].[MigrationId] AS [MigrationId], 
+	[Extent1].[Model] AS [Model], 
+	1 AS [C1]
+	FROM [dbo].[__MigrationHistory] AS [Extent1]
+)  AS [Project1]
+ORDER BY [Project1].[MigrationId] DESC
+
+
+----------------------------------------

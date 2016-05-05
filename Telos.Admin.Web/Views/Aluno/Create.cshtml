@@ -80,6 +80,22 @@
             @Html.ValidationMessageFor(model => model.DataNascimento)
         </div>
 
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CpfResponsavel)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.CpfResponsavel)
+            @Html.ValidationMessageFor(model => model.CpfResponsavel)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.NomeResponsavel)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.NomeResponsavel)
+            @Html.ValidationMessageFor(model => model.NomeResponsavel)
+        </div>
+
 
 
         <p>

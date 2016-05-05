@@ -49,5 +49,11 @@ namespace Telos.Admin.Web.Models
 
         [Display(Name = "AlunoModel_ModifiedDate", ResourceType = typeof(AppResources))]
         public DateTime ModifiedDate { get; set; }
+
+        [Display(Name = "AlunoModel_NomeReponsavel", ResourceType = typeof(AppResources))]
+        public String NomeResponsavel { get; set; }
+
+        [Display(Name = "AlunoModel_CpfResponsavel", ResourceType = typeof(AppResources))]
+        public String CpfResponsavel { get; set; }
     }
 }

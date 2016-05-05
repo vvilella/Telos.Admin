@@ -106,6 +106,15 @@ namespace Telos.Admin.Web.Models {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to CPF do Responsável.
+        /// </summary>
+        public static string AlunoModel_CpfResponsavel {
+            get {
+                return ResourceManager.GetString("AlunoModel_CpfResponsavel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Data de Nascimento.
         /// </summary>
         public static string AlunoModel_DataNascimento {
@@ -147,6 +156,15 @@ namespace Telos.Admin.Web.Models {
         public static string AlunoModel_Nome {
             get {
                 return ResourceManager.GetString("AlunoModel_Nome", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Nome do Responsável.
+        /// </summary>
+        public static string AlunoModel_NomeReponsavel {
+            get {
+                return ResourceManager.GetString("AlunoModel_NomeReponsavel", resourceCulture);
             }
         }
         
@@ -327,6 +345,15 @@ namespace Telos.Admin.Web.Models {
         public static string ProfessorModel_Telefone {
             get {
                 return ResourceManager.GetString("ProfessorModel_Telefone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string s {
+            get {
+                return ResourceManager.GetString("s", resourceCulture);
             }
         }
         
