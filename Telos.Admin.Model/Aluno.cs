@@ -11,8 +11,8 @@ namespace Telos.Admin.Model
         [Key]
         [Required]
         [MaxLength(11)]
-        [MinLength(11)]
-        public string CpfCode { get; set; }
+        [MinLength(9)]
+        public long CpfCode { get; set; }
 
         [Required]
         [MaxLength(300)]
@@ -32,14 +32,20 @@ namespace Telos.Admin.Model
 
         [Required]
         [MaxLength(9)]
-        public string Cep { get; set; }
+        public long Cep { get; set; }
 
         [Required]
         public long Telefone { get; set; }
 
         [Required]
         public long Celular { get; set; }
-        
+
+        public String NomeResponsavel { get; set; }
+
+        [MaxLength(11)]
+        [MinLength(9)]
+        public long CpfResponsavel { get; set; }
+
         public DateTime DataNascimento { get; set; }
 
         public DateTime ModifiedDate { get; set; }
