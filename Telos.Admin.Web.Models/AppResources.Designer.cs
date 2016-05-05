@@ -349,15 +349,6 @@ namespace Telos.Admin.Web.Models {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
-        /// </summary>
-        public static string s {
-            get {
-                return ResourceManager.GetString("s", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Cadastro de Unidades da Escola.
         /// </summary>
         public static string Unidade {

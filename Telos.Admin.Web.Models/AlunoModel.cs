@@ -52,5 +52,6 @@ namespace Telos.Admin.Web.Models
 
         [Display(Name = "AlunoModel_CpfResponsavel", ResourceType = typeof(AppResources))]
         public long CpfResponsavel { get; set; }
+
     }
 }

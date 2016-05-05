@@ -213,9 +213,6 @@
   <data name="Professor_Create_Title" xml:space="preserve">
     <value>Professor</value>
   </data>
-  <data name="s" xml:space="preserve">
-    <value />
-  </data>
   <data name="Unidade" xml:space="preserve">
     <value>Cadastro de Unidades da Escola</value>
   </data>

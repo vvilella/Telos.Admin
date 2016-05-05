@@ -32,5 +32,6 @@ namespace Telos.Admin.Web.Models
 
         [Display(Name = "ProfessorModel_ModifiedDate", ResourceType = typeof(AppResources))]
         public DateTime ModifiedDate { get; set; }
+
     }
 }
