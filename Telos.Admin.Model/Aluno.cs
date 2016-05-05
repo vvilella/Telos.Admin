@@ -10,8 +10,6 @@ namespace Telos.Admin.Model
     {
         [Key]
         [Required]
-        [MaxLength(11)]
-        [MinLength(9)]
         public long CpfCode { get; set; }
 
         [Required]
@@ -31,7 +29,6 @@ namespace Telos.Admin.Model
         public string Endereco { get; set; }
 
         [Required]
-        [MaxLength(9)]
         public long Cep { get; set; }
 
         [Required]
@@ -42,8 +39,6 @@ namespace Telos.Admin.Model
 
         public String NomeResponsavel { get; set; }
 
-        [MaxLength(11)]
-        [MinLength(9)]
         public long CpfResponsavel { get; set; }
 
         public DateTime DataNascimento { get; set; }

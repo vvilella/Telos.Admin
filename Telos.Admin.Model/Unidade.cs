@@ -22,7 +22,6 @@ namespace Telos.Admin.Model
         public string Endereco { get; set; }
 
         [Required]
-        [MaxLength(9)]
         public long Cep { get; set; }
 
         public DateTime ModifiedDate { get; set; }

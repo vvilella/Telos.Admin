@@ -6,8 +6,6 @@ namespace Telos.Admin.Web.Models
     public class AlunoModel
     {
         [Required]
-        [MaxLength(11)]
-        [MinLength(9)]
         [Display(Name = "AlunoModel_CpfCode", ResourceType = typeof(AppResources))]
         public long CpfCode { get; set; }
 
@@ -32,7 +30,6 @@ namespace Telos.Admin.Web.Models
         public string Endereco { get; set; }
 
         [Required]
-        [MaxLength(9)]
         [Display(Name = "AlunoModel_Cep", ResourceType = typeof(AppResources))]
         public long Cep { get; set; }
 
@@ -53,8 +50,6 @@ namespace Telos.Admin.Web.Models
         [Display(Name = "AlunoModel_NomeReponsavel", ResourceType = typeof(AppResources))]
         public String NomeResponsavel { get; set; }
 
-        [MaxLength(11)]
-        [MinLength(9)]
         [Display(Name = "AlunoModel_CpfResponsavel", ResourceType = typeof(AppResources))]
         public long CpfResponsavel { get; set; }
     }

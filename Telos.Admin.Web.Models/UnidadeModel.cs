@@ -22,8 +22,6 @@ namespace Telos.Admin.Web.Models
         public string Endereco { get; set; }
 
         [Required]
-        [MaxLength(9)]
-        [MinLength(9)]
         [Display(Name = "UnidadeModel_Cep", ResourceType = typeof(AppResources))]
         public long Cep { get; set; }
 
