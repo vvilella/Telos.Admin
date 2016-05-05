@@ -7,7 +7,7 @@ namespace Telos.Admin.Web.Models
     {
         [Required]
         [MaxLength(3)]
-        [MinLength(3)]
+        [MinLength(1)]
         [Display(Name = "UnidadeModel_UnidadeCode", ResourceType = typeof(AppResources))]
         public string UnidadeCode { get; set; }
 

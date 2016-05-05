@@ -10,7 +10,7 @@ namespace Telos.Admin.Model
         [Key]
         [Required]
         [MaxLength(3)]
-        [MinLength(3)]
+        [MinLength(1)]
         public string UnidadeCode { get; set; }
 
         [Required]
