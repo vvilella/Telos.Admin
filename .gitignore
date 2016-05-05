@@ -194,8 +194,5 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
-Telos.Admin.Web/AppLog.txt
-Telos.Admin.Web/AppLog.txt
-Telos.Admin.Web/AppLog.txt
-Telos.Admin.Web/AppLog.txt
-*.txt
+AppLog.txt
+

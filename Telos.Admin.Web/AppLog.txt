@@ -62408,3 +62408,97 @@ FROM [Telos].[Aluno] AS [Extent1]
 
 
 ----------------------------------------
+----------------------------------------
+UnidadeService.RetrieveAll
+
+----------------------------------------
+----------------------------------------
+UnidadeRepository.RetrieveAll
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0039397
+SELECT 
+[GroupBy1].[A1] AS [C1]
+FROM ( SELECT 
+	COUNT(1) AS [A1]
+	FROM [dbo].[__MigrationHistory] AS [Extent1]
+)  AS [GroupBy1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0009987
+SELECT TOP (1) 
+[Project1].[C1] AS [C1], 
+[Project1].[MigrationId] AS [MigrationId], 
+[Project1].[Model] AS [Model]
+FROM ( SELECT 
+	[Extent1].[MigrationId] AS [MigrationId], 
+	[Extent1].[Model] AS [Model], 
+	1 AS [C1]
+	FROM [dbo].[__MigrationHistory] AS [Extent1]
+)  AS [Project1]
+ORDER BY [Project1].[MigrationId] DESC
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0010219
+SELECT 
+[Extent1].[UnidadeCode] AS [UnidadeCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Unidade] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+UnidadeService.RetrieveAll
+
+----------------------------------------
+----------------------------------------
+UnidadeRepository.RetrieveAll
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0040178
+SELECT 
+[GroupBy1].[A1] AS [C1]
+FROM ( SELECT 
+	COUNT(1) AS [A1]
+	FROM [dbo].[__MigrationHistory] AS [Extent1]
+)  AS [GroupBy1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0010014
+SELECT TOP (1) 
+[Project1].[C1] AS [C1], 
+[Project1].[MigrationId] AS [MigrationId], 
+[Project1].[Model] AS [Model]
+FROM ( SELECT 
+	[Extent1].[MigrationId] AS [MigrationId], 
+	[Extent1].[Model] AS [Model], 
+	1 AS [C1]
+	FROM [dbo].[__MigrationHistory] AS [Extent1]
+)  AS [Project1]
+ORDER BY [Project1].[MigrationId] DESC
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0020016
+SELECT 
+[Extent1].[UnidadeCode] AS [UnidadeCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Unidade] AS [Extent1]
+
+
+----------------------------------------
