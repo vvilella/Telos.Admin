@@ -25,7 +25,7 @@ namespace Telos.Admin.Web.Models
         [MaxLength(9)]
         [MinLength(9)]
         [Display(Name = "UnidadeModel_Cep", ResourceType = typeof(AppResources))]
-        public string Cep { get; set; }
+        public long Cep { get; set; }
 
         [Display(Name = "UnidadeModel_ModifiedDate", ResourceType = typeof(AppResources))]
         public DateTime ModifiedDate { get; set; }

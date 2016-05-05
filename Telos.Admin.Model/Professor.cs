@@ -11,8 +11,8 @@ namespace Telos.Admin.Model
         [Key]
         [Required]
         [MaxLength(11)]
-        [MinLength(11)]
-        public string CpfCode { get; set; }
+        [MinLength(9)]
+        public long CpfCode { get; set; }
         
         [Required]
         [MaxLength(300)]

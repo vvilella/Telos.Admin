@@ -7,9 +7,9 @@ namespace Telos.Admin.Web.Models
     {
         [Required]
         [MaxLength(11)]
-        [MinLength(11)]
+        [MinLength(9)]
         [Display(Name = "ProfessorModel_CpfCode", ResourceType = typeof(AppResources))]
-        public string CpfCode { get; set; }
+        public long CpfCode { get; set; }
 
         [Required]
         [MaxLength(300)]

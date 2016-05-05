@@ -14,7 +14,7 @@ namespace Telos.Admin.Web.Models
         [MaxLength(11)]
         [MinLength(11)]
         [Display(Name = "MatriculaModel_MatriculaCode", ResourceType = typeof(AppResources))]
-        public Int64 MatriculaCode { get; set; }
+        public long MatriculaCode { get; set; }
 
         [Display(Name = "MatriculaModel_Unidade", ResourceType = typeof(AppResources))]
         public Unidade Unidade { get; set; }

@@ -23,7 +23,7 @@ namespace Telos.Admin.Model
 
         [Required]
         [MaxLength(9)]
-        public string Cep { get; set; }
+        public long Cep { get; set; }
 
         public DateTime ModifiedDate { get; set; }
     }

@@ -23,7 +23,7 @@ namespace Telos.Admin.Data.Repositories
 
         public virtual List<Matricula> FindByAluno(Aluno aluno)
         {
-            if (aluno == null && String.IsNullOrEmpty(aluno.CpfCode))
+            if (aluno == null)
                 return null;
 
             return this.dbSet.Where(i => i.Aluno.CpfCode.Equals(aluno.CpfCode)).ToList();
@@ -31,7 +31,7 @@ namespace Telos.Admin.Data.Repositories
 
         public virtual List<Matricula> FindByProfessor(Professor professor)
         {
-            if (professor == null && String.IsNullOrEmpty(professor.CpfCode))
+            if (professor == null)
                 return null;
 
             return this.dbSet.Where(i => i.Professor.CpfCode.Equals(professor.CpfCode)).ToList();

@@ -60686,3 +60686,1222 @@ ORDER BY [Project1].[MigrationId] DESC
 
 
 ----------------------------------------
+----------------------------------------
+AlunoService.RetrieveAll
+
+----------------------------------------
+----------------------------------------
+AlunoRepository.RetrieveAll
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0040222
+SELECT 
+[GroupBy1].[A1] AS [C1]
+FROM ( SELECT 
+	COUNT(1) AS [A1]
+	FROM [dbo].[__MigrationHistory] AS [Extent1]
+)  AS [GroupBy1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0010008
+SELECT TOP (1) 
+[Project1].[C1] AS [C1], 
+[Project1].[MigrationId] AS [MigrationId], 
+[Project1].[Model] AS [Model]
+FROM ( SELECT 
+	[Extent1].[MigrationId] AS [MigrationId], 
+	[Extent1].[Model] AS [Model], 
+	1 AS [C1]
+	FROM [dbo].[__MigrationHistory] AS [Extent1]
+)  AS [Project1]
+ORDER BY [Project1].[MigrationId] DESC
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0009313
+SELECT 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+AlunoService.RetrieveAll
+
+----------------------------------------
+----------------------------------------
+AlunoRepository.RetrieveAll
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0040286
+SELECT 
+[GroupBy1].[A1] AS [C1]
+FROM ( SELECT 
+	COUNT(1) AS [A1]
+	FROM [dbo].[__MigrationHistory] AS [Extent1]
+)  AS [GroupBy1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0009922
+SELECT TOP (1) 
+[Project1].[C1] AS [C1], 
+[Project1].[MigrationId] AS [MigrationId], 
+[Project1].[Model] AS [Model]
+FROM ( SELECT 
+	[Extent1].[MigrationId] AS [MigrationId], 
+	[Extent1].[Model] AS [Model], 
+	1 AS [C1]
+	FROM [dbo].[__MigrationHistory] AS [Extent1]
+)  AS [Project1]
+ORDER BY [Project1].[MigrationId] DESC
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0007389
+SELECT 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+AlunoService.Create
+
+----------------------------------------
+----------------------------------------
+AlunoRepository.Create
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0067654
+declare @0 NVarChar = cast(N'37360630835' as NVarChar);
+declare @1 NVarChar = cast(N'1' as NVarChar);
+declare @2 NVarChar = cast(N'1' as NVarChar);
+declare @3 NVarChar = cast(N'1' as NVarChar);
+declare @4 NVarChar = cast(N'1' as NVarChar);
+declare @5 NVarChar = cast(N'1' as NVarChar);
+declare @6 BigInt = cast(N'1' as BigInt);
+declare @7 BigInt = cast(N'1' as BigInt);
+declare @8 NVarChar = cast(N'2' as NVarChar);
+declare @9 DateTime2 = cast(N'01/01/1960 00:00:00' as DateTime2);
+declare @10 DateTime2 = cast(N'04/05/2016 21:25:48' as DateTime2);
+
+insert [Telos].[Aluno]([CpfCode], [Nome], [Email], [Rg], [Endereco], [Cep], [Telefone], [Celular], [NomeReponsavel], [CpfResponsavel], [DataNascimento], [ModifiedDate])
+values (@0, @1, @2, @3, @4, @5, @6, @7, null, @8, @9, @10)
+
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0067654
+declare @0 NVarChar = cast(N'37360630835' as NVarChar);
+declare @1 NVarChar = cast(N'1' as NVarChar);
+declare @2 NVarChar = cast(N'1' as NVarChar);
+declare @3 NVarChar = cast(N'1' as NVarChar);
+declare @4 NVarChar = cast(N'1' as NVarChar);
+declare @5 NVarChar = cast(N'1' as NVarChar);
+declare @6 BigInt = cast(N'1' as BigInt);
+declare @7 BigInt = cast(N'1' as BigInt);
+declare @8 NVarChar = cast(N'2' as NVarChar);
+declare @9 DateTime2 = cast(N'01/01/1960 00:00:00' as DateTime2);
+declare @10 DateTime2 = cast(N'04/05/2016 21:25:48' as DateTime2);
+
+insert [Telos].[Aluno]([CpfCode], [Nome], [Email], [Rg], [Endereco], [Cep], [Telefone], [Celular], [NomeReponsavel], [CpfResponsavel], [DataNascimento], [ModifiedDate])
+values (@0, @1, @2, @3, @4, @5, @6, @7, null, @8, @9, @10)
+
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0067654
+declare @0 NVarChar = cast(N'37360630835' as NVarChar);
+declare @1 NVarChar = cast(N'1' as NVarChar);
+declare @2 NVarChar = cast(N'1' as NVarChar);
+declare @3 NVarChar = cast(N'1' as NVarChar);
+declare @4 NVarChar = cast(N'1' as NVarChar);
+declare @5 NVarChar = cast(N'1' as NVarChar);
+declare @6 BigInt = cast(N'1' as BigInt);
+declare @7 BigInt = cast(N'1' as BigInt);
+declare @8 NVarChar = cast(N'2' as NVarChar);
+declare @9 DateTime2 = cast(N'01/01/1960 00:00:00' as DateTime2);
+declare @10 DateTime2 = cast(N'04/05/2016 21:25:48' as DateTime2);
+
+insert [Telos].[Aluno]([CpfCode], [Nome], [Email], [Rg], [Endereco], [Cep], [Telefone], [Celular], [NomeReponsavel], [CpfResponsavel], [DataNascimento], [ModifiedDate])
+values (@0, @1, @2, @3, @4, @5, @6, @7, null, @8, @9, @10)
+
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0067654
+declare @0 NVarChar = cast(N'37360630835' as NVarChar);
+declare @1 NVarChar = cast(N'1' as NVarChar);
+declare @2 NVarChar = cast(N'1' as NVarChar);
+declare @3 NVarChar = cast(N'1' as NVarChar);
+declare @4 NVarChar = cast(N'1' as NVarChar);
+declare @5 NVarChar = cast(N'1' as NVarChar);
+declare @6 BigInt = cast(N'1' as BigInt);
+declare @7 BigInt = cast(N'1' as BigInt);
+declare @8 NVarChar = cast(N'2' as NVarChar);
+declare @9 DateTime2 = cast(N'01/01/1960 00:00:00' as DateTime2);
+declare @10 DateTime2 = cast(N'04/05/2016 21:25:48' as DateTime2);
+
+insert [Telos].[Aluno]([CpfCode], [Nome], [Email], [Rg], [Endereco], [Cep], [Telefone], [Celular], [NomeReponsavel], [CpfResponsavel], [DataNascimento], [ModifiedDate])
+values (@0, @1, @2, @3, @4, @5, @6, @7, null, @8, @9, @10)
+
+
+
+----------------------------------------
+----------------------------------------
+AlunoService.RetrieveAll
+
+----------------------------------------
+----------------------------------------
+AlunoRepository.RetrieveAll
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00
+SELECT 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00
+SELECT 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00
+SELECT 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00
+SELECT 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00
+SELECT 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+AlunoService.FindByCode
+
+----------------------------------------
+----------------------------------------
+AlunoRepository.FindByCode
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0050057
+declare @p0 NVarChar = cast(N'37360630835' as NVarChar);
+
+SELECT TOP (2) 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+WHERE [Extent1].[CpfCode] = @p0
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0050057
+declare @p0 NVarChar = cast(N'37360630835' as NVarChar);
+
+SELECT TOP (2) 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+WHERE [Extent1].[CpfCode] = @p0
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0050057
+declare @p0 NVarChar = cast(N'37360630835' as NVarChar);
+
+SELECT TOP (2) 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+WHERE [Extent1].[CpfCode] = @p0
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0050057
+declare @p0 NVarChar = cast(N'37360630835' as NVarChar);
+
+SELECT TOP (2) 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+WHERE [Extent1].[CpfCode] = @p0
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0050057
+declare @p0 NVarChar = cast(N'37360630835' as NVarChar);
+
+SELECT TOP (2) 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+WHERE [Extent1].[CpfCode] = @p0
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0050057
+declare @p0 NVarChar = cast(N'37360630835' as NVarChar);
+
+SELECT TOP (2) 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+WHERE [Extent1].[CpfCode] = @p0
+
+
+----------------------------------------
+----------------------------------------
+AlunoService.FindByCode
+
+----------------------------------------
+----------------------------------------
+AlunoRepository.FindByCode
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00
+declare @p0 NVarChar = cast(N'37360630835' as NVarChar);
+
+SELECT TOP (2) 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+WHERE [Extent1].[CpfCode] = @p0
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00
+declare @p0 NVarChar = cast(N'37360630835' as NVarChar);
+
+SELECT TOP (2) 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+WHERE [Extent1].[CpfCode] = @p0
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00
+declare @p0 NVarChar = cast(N'37360630835' as NVarChar);
+
+SELECT TOP (2) 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+WHERE [Extent1].[CpfCode] = @p0
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00
+declare @p0 NVarChar = cast(N'37360630835' as NVarChar);
+
+SELECT TOP (2) 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+WHERE [Extent1].[CpfCode] = @p0
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00
+declare @p0 NVarChar = cast(N'37360630835' as NVarChar);
+
+SELECT TOP (2) 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+WHERE [Extent1].[CpfCode] = @p0
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00
+declare @p0 NVarChar = cast(N'37360630835' as NVarChar);
+
+SELECT TOP (2) 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+WHERE [Extent1].[CpfCode] = @p0
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00
+declare @p0 NVarChar = cast(N'37360630835' as NVarChar);
+
+SELECT TOP (2) 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+WHERE [Extent1].[CpfCode] = @p0
+
+
+----------------------------------------
+----------------------------------------
+AlunoService.Update
+
+----------------------------------------
+----------------------------------------
+AlunoRepository.Update
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0050041
+declare @0 NVarChar = cast(N'1' as NVarChar);
+declare @1 NVarChar = cast(N'1' as NVarChar);
+declare @2 NVarChar = cast(N'1' as NVarChar);
+declare @3 NVarChar = cast(N'1' as NVarChar);
+declare @4 NVarChar = cast(N'1' as NVarChar);
+declare @5 BigInt = cast(N'1' as BigInt);
+declare @6 BigInt = cast(N'1' as BigInt);
+declare @7 NVarChar = cast(N'2' as NVarChar);
+declare @8 DateTime2 = cast(N'01/01/1960 00:00:00' as DateTime2);
+declare @9 DateTime2 = cast(N'04/05/2016 21:26:03' as DateTime2);
+declare @10 NVarChar = cast(N'37360630835' as NVarChar);
+
+update [Telos].[Aluno]
+set [Nome] = @0, [Email] = @1, [Rg] = @2, [Endereco] = @3, [Cep] = @4, [Telefone] = @5, [Celular] = @6, [NomeReponsavel] = null, [CpfResponsavel] = @7, [DataNascimento] = @8, [ModifiedDate] = @9
+where ([CpfCode] = @10)
+
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0050041
+declare @0 NVarChar = cast(N'1' as NVarChar);
+declare @1 NVarChar = cast(N'1' as NVarChar);
+declare @2 NVarChar = cast(N'1' as NVarChar);
+declare @3 NVarChar = cast(N'1' as NVarChar);
+declare @4 NVarChar = cast(N'1' as NVarChar);
+declare @5 BigInt = cast(N'1' as BigInt);
+declare @6 BigInt = cast(N'1' as BigInt);
+declare @7 NVarChar = cast(N'2' as NVarChar);
+declare @8 DateTime2 = cast(N'01/01/1960 00:00:00' as DateTime2);
+declare @9 DateTime2 = cast(N'04/05/2016 21:26:03' as DateTime2);
+declare @10 NVarChar = cast(N'37360630835' as NVarChar);
+
+update [Telos].[Aluno]
+set [Nome] = @0, [Email] = @1, [Rg] = @2, [Endereco] = @3, [Cep] = @4, [Telefone] = @5, [Celular] = @6, [NomeReponsavel] = null, [CpfResponsavel] = @7, [DataNascimento] = @8, [ModifiedDate] = @9
+where ([CpfCode] = @10)
+
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0050041
+declare @0 NVarChar = cast(N'1' as NVarChar);
+declare @1 NVarChar = cast(N'1' as NVarChar);
+declare @2 NVarChar = cast(N'1' as NVarChar);
+declare @3 NVarChar = cast(N'1' as NVarChar);
+declare @4 NVarChar = cast(N'1' as NVarChar);
+declare @5 BigInt = cast(N'1' as BigInt);
+declare @6 BigInt = cast(N'1' as BigInt);
+declare @7 NVarChar = cast(N'2' as NVarChar);
+declare @8 DateTime2 = cast(N'01/01/1960 00:00:00' as DateTime2);
+declare @9 DateTime2 = cast(N'04/05/2016 21:26:03' as DateTime2);
+declare @10 NVarChar = cast(N'37360630835' as NVarChar);
+
+update [Telos].[Aluno]
+set [Nome] = @0, [Email] = @1, [Rg] = @2, [Endereco] = @3, [Cep] = @4, [Telefone] = @5, [Celular] = @6, [NomeReponsavel] = null, [CpfResponsavel] = @7, [DataNascimento] = @8, [ModifiedDate] = @9
+where ([CpfCode] = @10)
+
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0050041
+declare @0 NVarChar = cast(N'1' as NVarChar);
+declare @1 NVarChar = cast(N'1' as NVarChar);
+declare @2 NVarChar = cast(N'1' as NVarChar);
+declare @3 NVarChar = cast(N'1' as NVarChar);
+declare @4 NVarChar = cast(N'1' as NVarChar);
+declare @5 BigInt = cast(N'1' as BigInt);
+declare @6 BigInt = cast(N'1' as BigInt);
+declare @7 NVarChar = cast(N'2' as NVarChar);
+declare @8 DateTime2 = cast(N'01/01/1960 00:00:00' as DateTime2);
+declare @9 DateTime2 = cast(N'04/05/2016 21:26:03' as DateTime2);
+declare @10 NVarChar = cast(N'37360630835' as NVarChar);
+
+update [Telos].[Aluno]
+set [Nome] = @0, [Email] = @1, [Rg] = @2, [Endereco] = @3, [Cep] = @4, [Telefone] = @5, [Celular] = @6, [NomeReponsavel] = null, [CpfResponsavel] = @7, [DataNascimento] = @8, [ModifiedDate] = @9
+where ([CpfCode] = @10)
+
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0050041
+declare @0 NVarChar = cast(N'1' as NVarChar);
+declare @1 NVarChar = cast(N'1' as NVarChar);
+declare @2 NVarChar = cast(N'1' as NVarChar);
+declare @3 NVarChar = cast(N'1' as NVarChar);
+declare @4 NVarChar = cast(N'1' as NVarChar);
+declare @5 BigInt = cast(N'1' as BigInt);
+declare @6 BigInt = cast(N'1' as BigInt);
+declare @7 NVarChar = cast(N'2' as NVarChar);
+declare @8 DateTime2 = cast(N'01/01/1960 00:00:00' as DateTime2);
+declare @9 DateTime2 = cast(N'04/05/2016 21:26:03' as DateTime2);
+declare @10 NVarChar = cast(N'37360630835' as NVarChar);
+
+update [Telos].[Aluno]
+set [Nome] = @0, [Email] = @1, [Rg] = @2, [Endereco] = @3, [Cep] = @4, [Telefone] = @5, [Celular] = @6, [NomeReponsavel] = null, [CpfResponsavel] = @7, [DataNascimento] = @8, [ModifiedDate] = @9
+where ([CpfCode] = @10)
+
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0050041
+declare @0 NVarChar = cast(N'1' as NVarChar);
+declare @1 NVarChar = cast(N'1' as NVarChar);
+declare @2 NVarChar = cast(N'1' as NVarChar);
+declare @3 NVarChar = cast(N'1' as NVarChar);
+declare @4 NVarChar = cast(N'1' as NVarChar);
+declare @5 BigInt = cast(N'1' as BigInt);
+declare @6 BigInt = cast(N'1' as BigInt);
+declare @7 NVarChar = cast(N'2' as NVarChar);
+declare @8 DateTime2 = cast(N'01/01/1960 00:00:00' as DateTime2);
+declare @9 DateTime2 = cast(N'04/05/2016 21:26:03' as DateTime2);
+declare @10 NVarChar = cast(N'37360630835' as NVarChar);
+
+update [Telos].[Aluno]
+set [Nome] = @0, [Email] = @1, [Rg] = @2, [Endereco] = @3, [Cep] = @4, [Telefone] = @5, [Celular] = @6, [NomeReponsavel] = null, [CpfResponsavel] = @7, [DataNascimento] = @8, [ModifiedDate] = @9
+where ([CpfCode] = @10)
+
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0050041
+declare @0 NVarChar = cast(N'1' as NVarChar);
+declare @1 NVarChar = cast(N'1' as NVarChar);
+declare @2 NVarChar = cast(N'1' as NVarChar);
+declare @3 NVarChar = cast(N'1' as NVarChar);
+declare @4 NVarChar = cast(N'1' as NVarChar);
+declare @5 BigInt = cast(N'1' as BigInt);
+declare @6 BigInt = cast(N'1' as BigInt);
+declare @7 NVarChar = cast(N'2' as NVarChar);
+declare @8 DateTime2 = cast(N'01/01/1960 00:00:00' as DateTime2);
+declare @9 DateTime2 = cast(N'04/05/2016 21:26:03' as DateTime2);
+declare @10 NVarChar = cast(N'37360630835' as NVarChar);
+
+update [Telos].[Aluno]
+set [Nome] = @0, [Email] = @1, [Rg] = @2, [Endereco] = @3, [Cep] = @4, [Telefone] = @5, [Celular] = @6, [NomeReponsavel] = null, [CpfResponsavel] = @7, [DataNascimento] = @8, [ModifiedDate] = @9
+where ([CpfCode] = @10)
+
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0050041
+declare @0 NVarChar = cast(N'1' as NVarChar);
+declare @1 NVarChar = cast(N'1' as NVarChar);
+declare @2 NVarChar = cast(N'1' as NVarChar);
+declare @3 NVarChar = cast(N'1' as NVarChar);
+declare @4 NVarChar = cast(N'1' as NVarChar);
+declare @5 BigInt = cast(N'1' as BigInt);
+declare @6 BigInt = cast(N'1' as BigInt);
+declare @7 NVarChar = cast(N'2' as NVarChar);
+declare @8 DateTime2 = cast(N'01/01/1960 00:00:00' as DateTime2);
+declare @9 DateTime2 = cast(N'04/05/2016 21:26:03' as DateTime2);
+declare @10 NVarChar = cast(N'37360630835' as NVarChar);
+
+update [Telos].[Aluno]
+set [Nome] = @0, [Email] = @1, [Rg] = @2, [Endereco] = @3, [Cep] = @4, [Telefone] = @5, [Celular] = @6, [NomeReponsavel] = null, [CpfResponsavel] = @7, [DataNascimento] = @8, [ModifiedDate] = @9
+where ([CpfCode] = @10)
+
+
+
+----------------------------------------
+----------------------------------------
+AlunoService.RetrieveAll
+
+----------------------------------------
+----------------------------------------
+AlunoRepository.RetrieveAll
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0020022
+SELECT 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0020022
+SELECT 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0020022
+SELECT 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0020022
+SELECT 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0020022
+SELECT 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0020022
+SELECT 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0020022
+SELECT 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0020022
+SELECT 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0020022
+SELECT 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+
+
+----------------------------------------
+----------------------------------------
+AlunoService.FindByCode
+
+----------------------------------------
+----------------------------------------
+AlunoRepository.FindByCode
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00
+declare @p0 NVarChar = cast(N'37360630835' as NVarChar);
+
+SELECT TOP (2) 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+WHERE [Extent1].[CpfCode] = @p0
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00
+declare @p0 NVarChar = cast(N'37360630835' as NVarChar);
+
+SELECT TOP (2) 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+WHERE [Extent1].[CpfCode] = @p0
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00
+declare @p0 NVarChar = cast(N'37360630835' as NVarChar);
+
+SELECT TOP (2) 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+WHERE [Extent1].[CpfCode] = @p0
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00
+declare @p0 NVarChar = cast(N'37360630835' as NVarChar);
+
+SELECT TOP (2) 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+WHERE [Extent1].[CpfCode] = @p0
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00
+declare @p0 NVarChar = cast(N'37360630835' as NVarChar);
+
+SELECT TOP (2) 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+WHERE [Extent1].[CpfCode] = @p0
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00
+declare @p0 NVarChar = cast(N'37360630835' as NVarChar);
+
+SELECT TOP (2) 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+WHERE [Extent1].[CpfCode] = @p0
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00
+declare @p0 NVarChar = cast(N'37360630835' as NVarChar);
+
+SELECT TOP (2) 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+WHERE [Extent1].[CpfCode] = @p0
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00
+declare @p0 NVarChar = cast(N'37360630835' as NVarChar);
+
+SELECT TOP (2) 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+WHERE [Extent1].[CpfCode] = @p0
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00
+declare @p0 NVarChar = cast(N'37360630835' as NVarChar);
+
+SELECT TOP (2) 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+WHERE [Extent1].[CpfCode] = @p0
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00
+declare @p0 NVarChar = cast(N'37360630835' as NVarChar);
+
+SELECT TOP (2) 
+[Extent1].[CpfCode] AS [CpfCode], 
+[Extent1].[Nome] AS [Nome], 
+[Extent1].[Email] AS [Email], 
+[Extent1].[Rg] AS [Rg], 
+[Extent1].[Endereco] AS [Endereco], 
+[Extent1].[Cep] AS [Cep], 
+[Extent1].[Telefone] AS [Telefone], 
+[Extent1].[Celular] AS [Celular], 
+[Extent1].[NomeReponsavel] AS [NomeReponsavel], 
+[Extent1].[CpfResponsavel] AS [CpfResponsavel], 
+[Extent1].[DataNascimento] AS [DataNascimento], 
+[Extent1].[ModifiedDate] AS [ModifiedDate]
+FROM [Telos].[Aluno] AS [Extent1]
+WHERE [Extent1].[CpfCode] = @p0
+
+
+----------------------------------------
+----------------------------------------
+UnidadeService.RetrieveAll
+
+----------------------------------------
+----------------------------------------
+UnidadeRepository.RetrieveAll
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0019968
+SELECT 
+[GroupBy1].[A1] AS [C1]
+FROM ( SELECT 
+	COUNT(1) AS [A1]
+	FROM [dbo].[__MigrationHistory] AS [Extent1]
+)  AS [GroupBy1]
+
+
+----------------------------------------
+----------------------------------------
+-- time: 00:00:00.0009981
+SELECT TOP (1) 
+[Project1].[C1] AS [C1], 
+[Project1].[MigrationId] AS [MigrationId], 
+[Project1].[Model] AS [Model]
+FROM ( SELECT 
+	[Extent1].[MigrationId] AS [MigrationId], 
+	[Extent1].[Model] AS [Model], 
+	1 AS [C1]
+	FROM [dbo].[__MigrationHistory] AS [Extent1]
+)  AS [Project1]
+ORDER BY [Project1].[MigrationId] DESC
+
+
+----------------------------------------

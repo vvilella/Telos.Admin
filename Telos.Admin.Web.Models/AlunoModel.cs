@@ -7,9 +7,9 @@ namespace Telos.Admin.Web.Models
     {
         [Required]
         [MaxLength(11)]
-        [MinLength(11)]
+        [MinLength(9)]
         [Display(Name = "AlunoModel_CpfCode", ResourceType = typeof(AppResources))]
-        public string CpfCode { get; set; }
+        public long CpfCode { get; set; }
 
         [Required]
         [MaxLength(300)]
@@ -34,7 +34,7 @@ namespace Telos.Admin.Web.Models
         [Required]
         [MaxLength(9)]
         [Display(Name = "AlunoModel_Cep", ResourceType = typeof(AppResources))]
-        public string Cep { get; set; }
+        public long Cep { get; set; }
 
         [Required]
         [Display(Name = "AlunoModel_Telefone", ResourceType = typeof(AppResources))]
@@ -53,7 +53,9 @@ namespace Telos.Admin.Web.Models
         [Display(Name = "AlunoModel_NomeReponsavel", ResourceType = typeof(AppResources))]
         public String NomeResponsavel { get; set; }
 
+        [MaxLength(11)]
+        [MinLength(9)]
         [Display(Name = "AlunoModel_CpfResponsavel", ResourceType = typeof(AppResources))]
-        public String CpfResponsavel { get; set; }
+        public long CpfResponsavel { get; set; }
     }
 }
